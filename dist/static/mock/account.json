@@ -1,0 +1,212 @@
+{
+  "ret": true,
+  "data": {
+    "list":{
+      data:{
+        "empty":false,"error":false,"messages":[],"brandCouponGroups":[],"vendorCouponGroups":[],"brandMjsIds":[],"vendorMjsIds":[],
+        "user":{
+          "id":100673,"number":"571999998","provId":330000,"cityId":330100,"districtId":330104,
+          "provName":"浙江省","cityName":"杭州市","districtName":"江干区","address":"测试",
+          "shopName":"买家测试","name":"糊涂斯基","mobile":"18358119525","balance":0,
+          "balanceHuman":"0.00","creditQuota":0,"creditQuotaHuman":"0.00","usableBalance":0,
+          "usableBalanceHuman":"0.00","customerType":"default","storeNote":"能进大货车","agentNumber":"57100000"
+        },
+        "agent":{
+          "number":"57100000","minSellPrice":30000
+        },
+        "groups":{
+          "platform":{
+            "isPlatform":true,"deliverName":"杭州加盟商","total":39369,
+            "items":[{
+              "cartId":2203561,"productId":13363,"vendorId":104183,
+              "title":"600ml*24瓶百事可乐【连锁】","subTitle":"",
+              "tcid":1051,"scid":1052,"cid":1057,
+              "picUrl":"/upload/2017/03/02/d548354af8b87099b1b99fdd9c0085fb.jpg",
+              "salesVolume":60900,"brandId":1728,"brandName":"百事","number":"10000000000541",
+              "spec":"600ml*24瓶","unit":"箱","minSoldNum":1,"limitNum":10,"price":5250,"priceHuman":"52.50",
+              "quantity":1,"total":5250,"totalHuman":"52.50","discount":0,"discountHuman":"0.00","remark":"",
+              "isMjsBlack":false,"isMjjBlack":false,"isDiscountBlack":false,"isCouponBlack":null,
+              "isUseCouponBlack":false,"state":1,"delete":false,"gifts":[],"limitStartTime":0,"limitEndTime":0,
+              "stock":{"id":52863,"product_id":13363,"stock":1,"warehouse_stock":0,"warning_value":10},
+              "warehouse_stock":-27
+            },
+              {
+                "cartId":2203562,"productId":621722,"vendorId":16727320,"title":"YD 【激情回馈】杜蕾斯LOVE大胆爱吧3只/盒 避孕套 安全套 2046【连锁】",
+                "subTitle":"","tcid":1002,"scid":1798,"cid":1799,"picUrl":"/upload/2017/03/28/c7add6ce7033b01bfc9b399b4f34efd2.jpg","salesVolume":4769,
+                "brandId":1946,"brandName":"杜蕾斯","number":"","spec":"3只/盒","unit":"盒","minSoldNum":5,"limitNum":0,"price":669,"priceHuman":"6.69",
+                "quantity":51,"total":34119,"totalHuman":"341.19","discount":0,"discountHuman":"0.00","remark":"","isMjsBlack":false,"isMjjBlack":false,
+                "isDiscountBlack":false,"isCouponBlack":null,"isUseCouponBlack":false,"state":1,"delete":false,"gifts":[],"limitStartTime":0,"limitEndTime":0,
+                "stock":{
+                  "id":280751,"product_id":621722,"stock":231,"warehouse_stock":0,"warning_value":10
+                },
+                "warehouse_stock":0
+              }],
+            "gifts":[],
+            "discounts":[]
+          }
+        },
+        "total":{
+          "origin":39369,"originHuman":"393.69","platformOrigin":39369,"platformOriginHuman":"393.69",
+          "paymentCod":0,"paymentCodHuman":"0.00","paymentOnline":0,"paymentOnlineHuman":"0.00","mjs":39369,
+          "mjsHuman":"393.69","mjj":39369,"mjjHuman":"393.69","discount":39369,"discountHuman":"393.69",
+          "brands":{"1728":5250,"1946":34119},"brandsHuman":{"1728":"52.50","1946":"341.19"},
+          "vendors":{"104183":5250,"16727320":34119},"vendorsHuman":{"104183":"52.50","16727320":"341.19"},
+          "quantity":52
+        },
+        "discountTotal":{
+          "codMjj":0,"codMjjHuman":"0.00","onlineMjj":0,"onlineMjjHuman":"0.00","discount":0,"discountHuman":"0.00",
+          "platformDiscount":0,"platformDiscountHuman":"0.00"
+        },
+        "priceDiscounts":[],
+        "commonCoupons":[
+          {
+            "id":76122,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52",
+            "type":1,"typeCode":"common","typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":true
+          },
+          {
+            "id":76141,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677775,
+            "endTimestamp":1557215575,"startDatetime":"2018-05-07 15:22:55","endDatetime":"2019-05-07 15:52:55","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76140,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677775,
+            "endTimestamp":1557215575,"startDatetime":"2018-05-07 15:22:55","endDatetime":"2019-05-07 15:52:55","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76139,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677775,
+            "endTimestamp":1557215575,"startDatetime":"2018-05-07 15:22:55","endDatetime":"2019-05-07 15:52:55","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76138,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76137,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76136,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76135,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76134,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76133,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677774,
+            "endTimestamp":1557215574,"startDatetime":"2018-05-07 15:22:54","endDatetime":"2019-05-07 15:52:54","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76132,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677773,
+            "endTimestamp":1557215573,"startDatetime":"2018-05-07 15:22:53","endDatetime":"2019-05-07 15:52:53","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76131,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677773,
+            "endTimestamp":1557215573,"startDatetime":"2018-05-07 15:22:53","endDatetime":"2019-05-07 15:52:53","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76130,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677773,
+            "endTimestamp":1557215573,"startDatetime":"2018-05-07 15:22:53","endDatetime":"2019-05-07 15:52:53","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76129,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677773,
+            "endTimestamp":1557215573,"startDatetime":"2018-05-07 15:22:53","endDatetime":"2019-05-07 15:52:53","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76128,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677773,
+            "endTimestamp":1557215573,"startDatetime":"2018-05-07 15:22:53","endDatetime":"2019-05-07 15:52:53","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76127,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76126,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76125,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76124,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76123,"denomination":10000,"denominationHuman":"100.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677772,
+            "endTimestamp":1557215572,"startDatetime":"2018-05-07 15:22:52","endDatetime":"2019-05-07 15:52:52","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76143,"denomination":6100,"denominationHuman":"61.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677967,
+            "endTimestamp":1557215767,"startDatetime":"2018-05-07 15:26:07","endDatetime":"2019-05-07 15:56:07","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76188,"denomination":1000,"denominationHuman":"10.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1538985600,
+            "endTimestamp":1541577600,"startDatetime":"2018-10-08 16:00:00","endDatetime":"2018-11-07 16:00:00","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76207,"denomination":1000,"denominationHuman":"10.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1539590400,
+            "endTimestamp":1542182400,"startDatetime":"2018-10-15 16:00:00","endDatetime":"2018-11-14 16:00:00","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76116,"denomination":100,"denominationHuman":"1.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677675,
+            "endTimestamp":1557215475,"startDatetime":"2018-05-07 15:21:15","endDatetime":"2019-05-07 15:51:15","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          },
+          {
+            "id":76142,"denomination":100,"denominationHuman":"1.00","condition":30000,"conditionHuman":"300.00","startTimestamp":1525677903,
+            "endTimestamp":1557215703,"startDatetime":"2018-05-07 15:25:03","endDatetime":"2019-05-07 15:55:03","type":1,"typeCode":"common",
+            "typeRemark":"通用优惠券","brandId":0,"vendorId":0,"selected":false
+          }
+        ]
+      },
+      page: {
+        payType: 1,
+        payPlatform: "cod",
+        payment: 0,
+        paymentHuman: "0.00",
+        codPayment: 0,
+        onlinePayment: 0,
+        mjjAmount: 0,
+        mjjAmountHuman: "0.00",
+        buyerRemark: "",
+        couponSelectedTab: "common",
+        commonCouponSelectId: 0,
+        brandCouponSelectIds: [],
+        vendorCouponSelectIds: [],
+        couponAmount: 0,
+        couponAmountHuman: "0.00",
+        couponSelectList: [],
+        isSelectedYueDeduction: false,
+        isFirstLoading: true,
+      },
+      presale:[]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ret": true,
+  "data": {
+    "list": {
+      "empty":false,
+      "error":false,
+      "messages":[],
+      "user":{"id":100673,"number":"571999998","provId":330000,"cityId":330100,"districtId":330104,"provName":"浙江省","cityName":"杭州市","districtName":"江干区","address":"测试","shopName":"买家测试","name":"糊涂斯基","mobile":"18358119525","balance":0,"balanceHuman":"0.00","creditQuota":0,"creditQuotaHuman":"0.00","usableBalance":0,"usableBalanceHuman":"0.00","customerType":"default","storeNote":"能进大货车","agentNumber":"57100000"},
+      "agent":{"number":"57100000","minSellPrice":30000},
+      "groups":{
+        "platform":{
+          "isPlatform":true,
+          "deliverName":"杭州加盟商",
+          "total":106000,
+          "items":[
+            {
+              "cartId":2203555,"productId":598379,"vendorId":112652,"title":"蒙牛特仑苏 250ml*12盒【连锁】","subTitle":"建议6提/箱订购",
+              "tcid":1051,"scid":1052,"cid":1063, "picUrl":"/upload/2016/11/09/a0f4b63098af2287faddb84e9ca3c259.jpg","salesVolume":12420,
+              "brandId":0,"brandName":"","number":"","spec":"250ml*12盒*6提/箱","unit":"提","minSoldNum":1,"limitNum":30,"price":5300,
+              "priceHuman":"53.00","quantity":20,"total":106000,"totalHuman":"1060.00","discount":0,"discountHuman":"0.00","remark":"",
+              "isMjsBlack":false,"isMjjBlack":false,"isDiscountBlack":false, "isCouponBlack":null,"isUseCouponBlack":false,"state":1,"delete":false,
+              "gifts":[],"limitStartTime":0,"limitEndTime":0,
+              "stock":{
+                "id":273231,"product_id":598379,
+                "stock":1786,"warehouse_stock":0,
+                "warning_value":10
+              },
+              "warehouse_stock":0
+            },
+            {
+              "cartId":2203555,"productId":598379,"vendorId":112652,"title":"蒙牛特仑苏 250ml*12盒【连锁】","subTitle":"建议6提/箱订购",
+              "tcid":1051,"scid":1052,"cid":1063, "picUrl":"/upload/2016/11/09/a0f4b63098af2287faddb84e9ca3c259.jpg","salesVolume":12420,
+              "brandId":0,"brandName":"","number":"","spec":"250ml*12盒*6提/箱","unit":"提","minSoldNum":1,"limitNum":30,"price":2000,
+              "priceHuman":"20.00","quantity":20,"total":106000,"totalHuman":"1060.00","discount":0,"discountHuman":"0.00","remark":"",
+              "isMjsBlack":false,"isMjjBlack":false,"isDiscountBlack":false, "isCouponBlack":null,"isUseCouponBlack":false,"state":1,"delete":false,
+              "gifts":[],"limitStartTime":0,"limitEndTime":0,
+              "stock":{
+                "id":273231,"product_id":598379,
+                "stock":1786,"warehouse_stock":0,
+                "warning_value":10
+              },
+              "warehouse_stock":0
+            }
+          ],
+          "gifts":[],
+          "discounts":[]
+        },
+        "delll":{
+          "isPlatform":true,
+          "deliverName":"北京加盟商",
+          "total":100000,
+          "items":[
+            {"cartId":2203555,"productId":598379,"vendorId":112652,"title":"蒙牛特仑苏 250ml*12盒【连锁】","subTitle":"建议6提/箱订购",
+              "tcid":1051,"scid":1052,"cid":1063, "picUrl":"/upload/2016/11/09/a0f4b63098af2287faddb84e9ca3c259.jpg","salesVolume":12420,
+              "brandId":0,"brandName":"","number":"","spec":"250ml*12盒*6提/箱","unit":"提","minSoldNum":1,"limitNum":30,"price":5300,
+              "priceHuman":"53.00","quantity":20,"total":106000,"totalHuman":"1060.00","discount":0,"discountHuman":"0.00","remark":"",
+              "isMjsBlack":false,"isMjjBlack":false,"isDiscountBlack":false, "isCouponBlack":null,"isUseCouponBlack":false,"state":1,"delete":false,
+              "gifts":[],"limitStartTime":0,"limitEndTime":0,
+              "stock":{
+                "id":273231,"product_id":598379,
+                "stock":1786,"warehouse_stock":0,
+                "warning_value":10
+              },
+              "warehouse_stock":0
+            }
+          ],
+          "gifts":[],
+          "discounts":[]
+        }
+      },
+      "total":{
+        "origin":106000,
+        "originHuman":"1060.00",
+        "platformOrigin":106000,"platformOriginHuman":"1060.00",
+        "paymentCod":0,"paymentCodHuman":"0.00","paymentOnline":0,
+        "paymentOnlineHuman":"0.00","mjs":106000,"mjsHuman":"1060.00","mjj":106000,
+        "mjjHuman":"1060.00","discount":106000,"discountHuman":"1060.00","brands":[],
+        "brandsHuman":[],"vendors":{"112652":106000},"vendorsHuman":{"112652":"1060.00"},
+        "quantity":20
+      },
+      "discountTotal":{
+        "codMjj":0,"codMjjHuman":"0.00","onlineMjj":0,"onlineMjjHuman":"0.00","discount":0,
+        "discountHuman":"0.00","platformDiscount":0,"platformDiscountHuman":"0.00"
+      },
+      "priceDiscounts":[],
+      "commonCoupons":[],
+      "brandCouponGroups":[],
+      "vendorCouponGroups":[],
+      "brandMjsIds":[],
+      "vendorMjsIds":[]
+    }
+  }
+}
