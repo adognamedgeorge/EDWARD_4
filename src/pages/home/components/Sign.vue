@@ -7,7 +7,7 @@
       </div>
 
       <div class="ad1_text">
-        <h3>Hi, <a href="" class="active"></a></h3>
+        <h3>Hi, {{this.user.name}}<a href="" class="active"></a></h3>
         <p>签到可领取200积分</p>
       </div>
       <button><a>签到</a></button>
@@ -41,9 +41,28 @@
 <script>
 export default {
   name: 'HomeSign',
-  props: {
-    account: Object,
-    noticeList: Array
+  // props: {
+  //   account: Object
+  //   // noticeList: Array
+  // },
+  data () {
+    return {
+      noticeList: [
+        '8月爆品预售来袭8月爆品预售来袭8月爆品预售来袭',
+        '【通知】9月27日订单配送通知',
+        '1法丽兹系列调价通知',
+        '2法丽兹系列调价通知'
+      ],
+      account: {
+        'balance': 456222,
+        'couponNum': '3',
+        'integral': 123
+      },
+      user: {
+        'id': '100673',
+        'name': 'maijia'
+      }
+    }
   },
   methods: {
     timeFormate (timeStamp) {

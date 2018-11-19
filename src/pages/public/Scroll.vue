@@ -14,15 +14,137 @@
 import Link from './public_js/link.js'
 export default {
   name: 'Scroll',
-  props: {
-    list: Array
-  },
+  // props: {
+  //   list: Array
+  // },
   data () {
     return {
       scrollTop: '',
       goTopShow: false,
       isTrue: false,
-      currentIndex: null
+      currentIndex: null,
+      list: [
+        {
+          'id': 1001,
+          'sideTitle': '酒饮料',
+          'sideSorts': [
+            {'name': '啤酒', 'id': 1001},
+            {'name': '白酒', 'id': 1002}
+          ],
+          'sideImg': '/static/img/home_banner_L1@2x.png',
+          'categoryList': [
+            {
+              'id': '1001',
+              'stock': '100',
+              'img': 'http://i8.yunmayi.com/upload/2015/04/30/7b948795d28a540658f4fc6f6da26950.jpgXXXXX!!!!!_300x300.jpg',
+              'title': '1111111111五常昌旺纯真100%稻花香',
+              'spec': '10kg/袋',
+              'unit': '袋',
+              'price': '105.50',
+              'minSoldNum': '3',
+              'isCollect': 0
+            },
+            {
+              'id': '1002',
+              'stock': '900',
+              'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+              'title': '2五常昌旺纯真100%稻花香',
+              'spec': '310kg/袋',
+              'unit': '箱',
+              'price': '15.50',
+              'minSoldNum': '4',
+              'isCollect': 1
+            },
+            {
+              'id': '1003',
+              'stock': '110',
+              'img': 'http://i8.yunmayi.com/upload/2015/04/30/7b948795d28a540658f4fc6f6da26950.jpgXXXXX!!!!!_200x200.jpg',
+              'title': '3五常昌旺纯真100%稻花香',
+              'spec': '90kg/袋',
+              'unit': '袋',
+              'price': '905.50',
+              'minSoldNum': '5',
+              'isCollect': 0
+            },
+            {
+              'id': '1004',
+              'stock': '110',
+              'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+              'title': '55555五常昌旺纯真100%稻花香',
+              'spec': '90kg/袋',
+              'unit': '袋',
+              'price': '905.50',
+              'minSoldNum': '6',
+              'isCollect': 1
+            },
+            {
+              'id': '1005',
+              'stock': '110',
+              'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+              'title': '44455五常昌旺纯真100%稻花香',
+              'spec': '330ml*24瓶',
+              'unit': '袋',
+              'price': '905.50',
+              'minSoldNum': '7',
+              'isCollect': 1
+            }
+          ]
+        },
+        {
+          'id': 1002,
+          'sideTitle': '儿童玩具',
+          'sideSorts': [
+            {'name': '气球', 'id': 1003},
+            {'name': '皮球', 'id': 1004}
+          ],
+          'sideImg': '/static/img/home_banner_L1@2x.png',
+          'categoryList': [
+            {
+              'id': '1001',
+              'stock': '100',
+              'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+              'title': '444五常昌旺纯真100%稻花香',
+              'spec': '10kg/袋',
+              'unit': '袋',
+              'price': '15.50',
+              'minSoldNum': '3',
+              'isCollect': 1
+            }
+          ]
+        },
+        {
+          'id': 1003,
+          'sideTitle': '日用洗护',
+          'sideSorts': [
+            {'name': '牙膏', 'id': 1005},
+            {'name': '牙刷', 'id': 1006}
+          ],
+          'sideImg': '/static/img/home_banner_L1@2x.png',
+          'categoryList': [
+            {
+              'id': '1001',
+              'stock': '100',
+              'img': 'http://i8.yunmayi.com/upload/2015/04/30/7b948795d28a540658f4fc6f6da26950.jpgXXXXX!!!!!_300x300.jpg',
+              'title': '222五常昌旺纯真100%稻花香',
+              'spec': '10kg/袋',
+              'unit': '袋',
+              'price': '15.50',
+              'minSoldNum': '3',
+              'isCollect': 1
+            }, {
+              'id': '1002',
+              'stock': '100',
+              'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+              'title': '333五常昌旺纯真100%稻花香',
+              'spec': '10kg/袋',
+              'unit': '袋',
+              'price': '15.50',
+              'minSoldNum': '3',
+              'isCollect': 1
+            }
+          ]
+        }
+      ]
     }
   },
   methods: {

@@ -2,15 +2,15 @@
   <div id="special" class="category">
     <div class="wrapper">
       <div class="focus_within">
-        <button class="button_first" v-show="showSpecial" :class="{selected: isTrue}" @click="btnSpeClick">{{spc_title}}</button>
-        <button class="button_second" v-show="showRecd" :class="{selected: !isTrue}" @click="btnRecClick">{{rec_title}}</button>
+        <button class="button_first" v-show="showSpecial" :class="{selected: isTrue}" @click="btnSpeClick">限时特价</button>
+        <button class="button_second" v-show="showRecd" :class="{selected: !isTrue}" @click="btnRecClick">新品推荐</button>
       </div>
     </div>
 
     <div class="wrapper">
       <div class="sp_left">
         <img src="../../../assets/imgs/home_banner_discount@2x.png" v-show="showSpecial && isTrue"/>
-        <img src="@/assets/imgs/home_banner_new@2x.png" v-show="showRecd && !isTrue"/>
+        <img src="../../../assets/imgs/home_banner_new@2x.png" v-show="showRecd && !isTrue"/>
       </div>
       <div class="sp_slid">
             <ul>
@@ -80,9 +80,9 @@ export default {
   components: {
     HomePresale
   },
-  props: {
-    list: Array
-  },
+  // props: {
+  //   list: Array
+  // },
   data () {
     return {
       swiperOption: {
@@ -100,7 +100,143 @@ export default {
       recList: [],
       changeShow: true,
       times: 0,
-      isTrue: true
+      isTrue: true,
+      list: [
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        },
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        },
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        }
+      ],
+      recList: [
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        },
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        },
+        {
+          'id': 110974,
+          'stock': '100',
+          'img': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'title': '1五常昌旺纯真100%稻花香',
+          'spec': '10kg/袋',
+          'unit': '袋',
+          'price': '105.50',
+          'minSoldNum': '3',
+          'isCollect': 0
+        },
+        {
+          'id': '110979',
+          'stock': '110',
+          'img': '/upload/eba1c2ef98775bf4431d2ebd472eab51.jpg',
+          'title': '6665555五常昌旺纯真100%稻花香',
+          'spec': '90kg/袋',
+          'unit': '袋',
+          'price': '905.50',
+          'minSoldNum': '1',
+          'isCollect': 1
+        }
+      ]
     }
   },
   methods: {

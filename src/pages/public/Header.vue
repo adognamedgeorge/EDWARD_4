@@ -26,7 +26,10 @@ export default {
   name: 'Header',
   data () {
     return {
-      user: {}
+      user: {
+        'id': '100673',
+        'name': 'maijia'
+      }
     }
   },
   methods: {
