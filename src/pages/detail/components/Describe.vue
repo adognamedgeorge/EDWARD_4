@@ -22,9 +22,44 @@
 <script>
 export default {
   name: 'DetailDescribe',
-  props: {
-    param: Object,
-    list: Object
+  // props: {
+  //   param: Object,
+  //   list: Object
+  // },
+  data () {
+    return {
+      param: {
+        '规格': '500g/袋',
+        '整箱': '8袋',
+        '品牌': '阿尔卑斯',
+        '单位': '袋',
+        '建议零售价': '￥42',
+        '保质期': '12个月'
+      },
+      list: {
+        'imgUrl': [
+          'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+          'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+          'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+          'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg'
+        ],
+        'title': '阿尔卑斯糖散装牛奶硬糖棒棒糖500g水果糖果批发儿童零食结婚喜糖口味随机',
+        'content': '500g散装约130颗，口味随机',
+        'param': {
+          '规格': '500g/袋',
+          '整箱': '8袋',
+          '品牌': '阿尔卑斯',
+          '单位': '袋',
+          '建议零售价': '￥42',
+          '保质期': '12个月'
+        },
+        'wholesale': '33',
+        'unit': '箱',
+        'minSoldNum': '8'
+      }
+    }
   }
 }
 </script>

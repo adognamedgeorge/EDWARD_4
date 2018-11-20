@@ -23,9 +23,9 @@
 <script>
 export default {
   name: 'DetailOftenbuy',
-  props: {
-    ofList: Array
-  },
+  // props: {
+  //   ofList: Array
+  // },
   data () {
     return {
       swiperOption: {
@@ -37,7 +37,26 @@ export default {
         height: 510,
         prevButton: '.swiper-button-prev',
         nextButton: '.swiper-button-next',
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        ofList: [
+          {
+            'id': 1001,
+            'imgUrl': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+            'price': '9.99'
+          }, {
+            'id': 1002,
+            'imgUrl': 'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+            'price': '19.99'
+          }, {
+            'id': 1003,
+            'imgUrl': 'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+            'price': '29.99'
+          }, {
+            'id': 1004,
+            'imgUrl': 'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+            'price': '39.99'
+          }
+        ]
       }
     }
   },

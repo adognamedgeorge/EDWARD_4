@@ -12,12 +12,23 @@
 <script>
 export default {
   name: 'AnnounceNotice',
-  props: {
-    web: Array
-  },
+  // props: {
+  //   web: Array
+  // },
   data () {
     return {
-      iframeState: false
+      iframeState: false,
+      web: [
+        {
+          'link': 'http://pifa.yunmayi.com//notice/detail?id=1390',
+          'id': 1001,
+          'name': '通知1'
+        }, {
+          'link': 'http://pifa.yunmayi.com//notice/detail?id=1380',
+          'id': 1002,
+          'name': '通知2'
+        }
+      ]
     }
   },
   mounted () {

@@ -41,9 +41,17 @@ export default {
       list: {},
       currentIndex: 0,
       ind: 0,
-      imgUrl: [],
+      // imgUrl: [],
       param: {},
-      ofList: []
+      ofList: [],
+      imgUrl: [
+        'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+        'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+        'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+        'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg',
+        'http://pifa.yunmayi.com/upload/2015/10/21/165dfcb4125eec29a429f10ce8e45e5c.jpg',
+        'http://pifa.yunmayi.com/upload/2017/04/10/d184ee5412efa0743ad7803c4913bf05.jpg'
+      ]
     }
   },
   components: {
