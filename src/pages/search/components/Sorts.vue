@@ -31,13 +31,23 @@ export default {
       showHeight: false,
       hideHeight: true,
       text: '更多',
-      iconTurn: false
+      iconTurn: false,
+      sortList: [
+        '食品零食', '酒水饮料', '冰淇淋', '日用洗护', '家用百货', '九五折专区', '食品零食', '酒水饮料', '冰淇淋', '日用洗护', '家用百货', '九五折专区'
+      ],
+      brandList: [
+        '维他奶', '伊利', '康师傅', '李子园', '旺仔', '蒙牛', '光明',
+        '维他奶', '伊利', '康师傅', '李子园', '旺仔', '蒙牛', '光明',
+        '维他奶', '伊利', '康师傅', '李子园', '旺仔', '蒙牛', '光明',
+        '维他奶', '伊利', '康师傅', '李子园', '旺仔', '蒙牛', '光明',
+        '维他奶', '伊利', '康师傅', '李子园', '旺仔', '蒙牛', '光明'
+      ]
     }
   },
-  props: {
-    sortList: Array,
-    brandList: Array
-  },
+  // props: {
+  //   sortList: Array,
+  //   brandList: Array
+  // },
   methods: {
     overShow () {
       this.showHeight = !this.showHeight
