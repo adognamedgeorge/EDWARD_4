@@ -62,7 +62,7 @@ export default {
   },
   computed: {
     showSwiper () {
-      return 4
+      return this.ofList.length
     }
   }
 }
